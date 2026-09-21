@@ -8,6 +8,7 @@ function Header() {
         <NavLink to="/">Início</NavLink>
         <NavLink to="/perfil">Perfil</NavLink>
         <NavLink to="/habilidades">Habilidades</NavLink>
+        <NavLink to="/contador">Contador</NavLink>
       </nav>
     </header>
   )
