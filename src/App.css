@@ -122,7 +122,11 @@ p {
 .contador {
   max-width: 400px;
   text-align: center;
-  margin-top: 16px;
+  margin: 0 auto;
+}
+
+.titulo-contador {
+  text-align: center;
 }
 
 .contador .valor {
@@ -130,14 +134,14 @@ p {
   margin-bottom: 16px;
 }
 
-.botoes {
+.contador-botoes {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
-.botoes button {
+.contador-botoes button {
   padding: 8px 16px;
   border: none;
   border-radius: 6px;
@@ -158,7 +162,13 @@ p {
   font-size: 14px;
 }
 
+.campos label {
+  align-items: center;
+  gap: 4px;
+}
+
 .campos input {
   width: 80px;
   padding: 4px;
+  text-align: center;
 }

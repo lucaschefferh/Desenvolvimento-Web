@@ -61,7 +61,7 @@ function Contador() {
     <div className="card contador">
       <h2 className="valor">{contador}</h2>
 
-      <div className="botoes">
+      <div className="contador-botoes">
         <button onClick={decrementar}>-</button>
         <button onClick={resetar}>Resetar</button>
         <button onClick={incrementar}>+</button>
